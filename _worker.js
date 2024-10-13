@@ -4085,13 +4085,13 @@ var SignJWT = class extends ProduceJWT {
 };
 
 // src/worker.js
-var userID = "89b3cbba-e6ac-485a-9481-976a0415eab9";
+var userID = "0831cdf4-b2d2-42dd-9831-d0749ba1f0bf";
 var trojanPassword = `bpb-trojan`;
-var proxyIPs = ["bpb.yousef.isegaro.com"];
+var proxyIPs = ["bpb.radically.pro"];
 var defaultHttpPorts = ["80", "8080", "2052", "2082", "2086", "2095", "8880"];
 var defaultHttpsPorts = ["443", "8443", "2053", "2083", "2087", "2096"];
 var proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
-var dohURL = "https://cloudflare-dns.com/dns-query";
+var dohURL = "https://sky.rethink.com/dns-query";
 var hashPassword;
 var panelVersion = "2.6.8";
 var worker_default = {
